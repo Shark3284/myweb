@@ -121,7 +121,7 @@ height: 80%;
 .main{                                      /* メインコンテンツ */
     background-color: cornsilk;
     width: 905px;
-    height:620px;
+    height:600px;
     clear: both;
     margin: 0;
     margin-top: 20px;
@@ -130,16 +130,6 @@ height: 80%;
     font-weight: bold;
     text-align: center;
     font-family: YuMincho;
-}
-
-.link {
-    font-size: 18px;  
-    text-align: center
-    font-family: YuMincho;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    
 }
 
 
@@ -156,13 +146,35 @@ height: 80%;
     font-family: YuMincho;
 }
 
+.main3{                                     /* メインコンテンツ */
+    background-color: cornsilk;
+    width: 905px;
+    height:1150px;
+    clear: both;
+    margin-top: 20px;
+    padding: 0px 10px 50px;
+    float: left;
+    font-weight: bold;
+    text-align: left;
+    font-family: YuMincho;
+    font-size:17px;
+}
 
+.link {
+    font-size: 18px;  
+    text-align: center
+    font-family: YuMincho;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
 
 .sidebar{                                   /* 右側コンテンツ */
     background-color: #FDE8B6;
     width: 230px;
-    height: 400px;
-    margin: 0 10px;
+    height: 440px;
+    margin:  10px;
     font-size: 20px;
     margin-top: 20px;
     float: right;
@@ -173,6 +185,7 @@ height: 80%;
 .sidebar li {                             /* 右側リストの各項目 */
   font-size: 18px;
   list-style: none;
+    padding-left: 5px;  
 }
 
 .btn-sidebar{                              /* 右側リストのボタン */
@@ -181,6 +194,17 @@ height: 80%;
     width: 195px;
     display: block;
     text-align: center;
+}
+
+.sidebar_menu {
+  font-family: 'メイリオ', serif;
+  font-size: 20spx;
+  border-color: #444444;
+  text-align: center;
+  margin: 10px;
+  border-left: solid 10px #ffb05e;  
+  background: white;
+  font-weight: bold;    
 }
 
 dammy{                                      /* メインコンテンツ */
@@ -322,29 +346,66 @@ width: 30%;
     margin-left:5px;
 }
 
-.bookcontent{
-    width:380px;
-    height: 300px;
-    float:right;
-    margin-top:-20px
-}
-
 .bookcover{
     width:210px;
     height: 300px;
-    float:left;
+    float:left;  
 }
 
-
-.book_title{
-    font-size:22px;
-    float:center;
+.bookcontent{
+    width:380px;
+    height: 35px;
+    float:right;
     border-bottom: solid 1px #444444;
     text-align: center;    
+    background: snow;
+    font-size:22px;    
+    line-height: 40px;
 }
 
-.book_description{
-    font-size:18px;
+
+.book_description1{
+    width:100px;
+    height: 240px;
     float:left;
-    margin-top:-10px    
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+    font-size:17px;
+    background: cornsilk;
+    line-height: 26px;
+}
+
+.book_description2{
+    width:260px;
+    height: 240px;
+    float:left;
+    text-align: left;
+    margin-top:10px;
+    margin-left:20px;
+    font-size:17px; 
+    background: cornsilk;
+    line-height: 26px;
+}
+
+.intro_img{
+    float:center;
+    margin-top: 10px;
+}
+
+.intro_img2{
+    float:left;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.box7 {
+    padding: 0px 5px 5px 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    height:72px;
+    width:600px;
+    color: #232323;
+    background:  #FFE59F;
+    border-left: solid 10px #ffb05e;
 }
