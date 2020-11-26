@@ -121,7 +121,7 @@ height: 80%;
 .main{                                      /* メインコンテンツ */
     background-color: cornsilk;
     width: 905px;
-    height:600px;
+    height:auto;
     clear: both;
     margin: 0;
     margin-top: 20px;
@@ -159,6 +159,7 @@ height: 80%;
     font-family: YuMincho;
     font-size:17px;
 }
+
 
 .link {
     font-size: 18px;  
@@ -227,6 +228,11 @@ footer {                                   /* フッター部分 */
   float:bottom;
   clear: both;
 
+}
+
+.graf_images {
+height: auto;
+width: 95%;
 }
 
 .box1 {
@@ -409,3 +415,4 @@ width: 30%;
     background:  #FFE59F;
     border-left: solid 10px #ffb05e;
 }
+
