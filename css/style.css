@@ -91,7 +91,9 @@ height: 80%;
   border-radius: 5px;
 }
 
-
+.btn-square:hover{
+  opacity:0.7;
+}
 
 .btn-square2{                                /* 上部リストのボタン */
   background-color: #FFE59F;
