@@ -21,6 +21,11 @@ h2{
     font-size: 20px;
 }
 
+h3{
+    background: snow;
+    font-size:36px;
+}
+
 
 img{                                       /* 画像 */
     vertical-align:bottom;
@@ -235,6 +240,7 @@ footer {                                   /* フッター部分 */
 .graf_images {
 height: auto;
 width: 95%;
+margin:0px 0px 10px;
 }
 
 .box1 {
