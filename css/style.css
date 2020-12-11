@@ -424,3 +424,16 @@ width: 30%;
     border-left: solid 10px #ffb05e;
 }
 
+.illust {
+  width:30%;
+  height:auto;
+  float:left;
+  padding:5px 10px 5px 10px;
+}
+
+.illust2 {
+  width:300px;
+  height:auto;
+  float:left;
+  padding:5px 10px 5px 10px;
+}
